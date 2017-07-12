@@ -3,7 +3,7 @@
     <slider v-model="value" style="width: 400px" :maxNum="maxNum" @dragEnd='dragEnd' @dragStart='dragStart'>
       <template slot="dot"></template>
     </slider>
-    <audio id="audio" ref='audio' controls="" name="media" >
+    <audio id="audio" ref='audio' controls="" name="media" style="display: none">
       <source :src='src' type="audio/mpeg">
     </audio>
   </div>
